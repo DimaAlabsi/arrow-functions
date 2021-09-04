@@ -201,7 +201,7 @@ console.log(joe.scopeArrow());
 // 1. What is "this" when joe.scope() is invoked?
 // undefiend
 // 2. What is "this" when joe.scopeArrow() is invoked?
-// undefined
+// the global window object.
 
 // 3. Explain why "this" is different when an arrow function is used.
-// because arrow functions retain the this value of the enclosing functional scope.
+// because arrow functions retain the this value of the enclosing functional scope so Arrow functions do not have their own this ..
