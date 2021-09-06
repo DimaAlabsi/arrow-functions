@@ -200,6 +200,8 @@ console.log(joe.scopeArrow());
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
 // "this" have the output of the object itself....
+
+
 // 2. What is "this" when joe.scopeArrow() is invoked?
 // the global window object.
 
